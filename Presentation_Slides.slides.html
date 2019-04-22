@@ -13249,7 +13249,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This <a href='https://data.seattle.gov/Community/Checkouts-by-Title/tmmm-ytt6'>data set </a> is made available through the Open Data Program by the City of Seattle; it consists of monthly counts by title of checkout for all physical and digital items from 2005 to present from the Seattle Public Library. The set is updated at the beginning of each month, as of March 2019 it contained more than 33 million of entries with 11 columns. Each row is a checkout count with the following information:</p>
+<p>This <a href='https://data.seattle.gov/Community/Checkouts-by-Title/tmmm-ytt6'>data set </a> is made available through the Open Data Program by the City of Seattle; it consists of monthly counts by title of checkout for all physical and digital items from 2005 to present from the Seattle Public Library. The set is updated at the beginning of each month; as of March 2019 it contained more than 33 million of entries with 11 columns. Each row is a checkout count with the following information:</p>
 <p><br></p>
 <table style="width:80%">
   <tr>
@@ -13319,8 +13319,8 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Question:-Are-digital-books-challenging-printed-books-in-the-Seattle-Public-Library?">Question: Are digital books challenging printed books in the Seattle Public Library?<a class="anchor-link" href="#Question:-Are-digital-books-challenging-printed-books-in-the-Seattle-Public-Library?">&#182;</a></h2><p>The Seattle Public Library has been recording all digital and pshysical checkouts since April 2005 and has over 33.4 million of entries which get updated every month, the library also affers and promotes a wide collection of e-books and audiobooks that are availabe for multiple devices.</p>
-<p>With this analysis I compare and try to predict checkcout formats for the SPL</p><h2 id="Methodology">Methodology<a class="anchor-link" href="#Methodology">&#182;</a></h2><p>OSEMiN</p>
+<h2 id="Question:-Are-digital-books-challenging-printed-books-in-the-Seattle-Public-Library?">Question: Are digital books challenging printed books in the Seattle Public Library?<a class="anchor-link" href="#Question:-Are-digital-books-challenging-printed-books-in-the-Seattle-Public-Library?">&#182;</a></h2><p>The Seattle Public Library has been recording all digital and physical checkouts since April 2005 and has over 33.4 million of entries which get updated every month, the library also offers and promotes a wide collection of e-books and audiobooks that are available for multiple devices.</p>
+<p>With this analysis I compare and try to predict checkout formats for the SPL</p><h2 id="Methodology">Methodology<a class="anchor-link" href="#Methodology">&#182;</a></h2><p>OSEMiN</p>
 <p><b>Obtain</b> Gather information, obtain the data.</p>
 <p><b>Scrub</b> Clean, reduce noise, remove data that is not needed; check, remove or replace missing or null values, extract columns or format data types.</p>
 <p><b>Explore</b> Set up the data, check for multicollinearity, make sure the dataset meets what is necessary for the type of model to apply later on.</p>
@@ -13335,8 +13335,7 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Initial-Findings">Initial Findings<a class="anchor-link" href="#Initial-Findings">&#182;</a></h2><p>Over the past decade digital content has made a valiant effort at catching up.</p>
 <div>
-    <a href="https://plot.ly/~natyquin/64/?share_key=nz6Dr2Em09GlAZoz6o4MAE" target="_blank" title="plot from API" style="display: block; text-align: center;"><img src="https://plot.ly/~natyquin/64.png?share_key=nz6Dr2Em09GlAZoz6o4MAE" alt="plot from API" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="natyquin:64" sharekey-plotly="nz6Dr2Em09GlAZoz6o4MAE" src="https://plot.ly/embed.js" async></script>
+    <img src="Images/formats.png">
 </div>
 </div>
 </div>
@@ -13345,10 +13344,9 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><div>
-    <a href="https://plot.ly/~natyquin/68/?share_key=2K35Vfba0Z8DCeomAVaWso" target="_blank" title="plot from API (1)" style="display: block; text-align: center;"><img src="https://plot.ly/~natyquin/68.png?share_key=2K35Vfba0Z8DCeomAVaWso" alt="plot from API (1)" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="natyquin:68" sharekey-plotly="2K35Vfba0Z8DCeomAVaWso" src="https://plot.ly/embed.js" async></script>
+    <img src='Images/material_format.png'>
 </div>
-Sound Disc comes second with 3.87M of checkouts, e-books have been chekedout 3.6M times.</p>
+Sound Disc comes second with 3.87M of checkouts; e-books have been checkout 3.6M times.</p>
 
 </div>
 </div>
@@ -13357,8 +13355,7 @@ Sound Disc comes second with 3.87M of checkouts, e-books have been chekedout 3.6
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><div>
-    <a href="https://plot.ly/~natyquin/70/?share_key=j5xxCL96yzhj7EDxt6HMET" target="_blank" title="plot from API (2)" style="display: block; text-align: center;"><img src="https://plot.ly/~natyquin/70.png?share_key=j5xxCL96yzhj7EDxt6HMET" alt="plot from API (2)" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="natyquin:70" sharekey-plotly="j5xxCL96yzhj7EDxt6HMET" src="https://plot.ly/embed.js" async></script>
+    <img src="Images/month_checkouts.png">
 </div>
 Library users are constant for all months during the year</p>
 
@@ -13378,8 +13375,7 @@ Library users are constant for all months during the year</p>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div>
-    <a href="https://plot.ly/~natyquin/72/?share_key=VlwfkPWF6FhgjM1TfVNOjX" target="_blank" title="plot from API (3)" style="display: block; text-align: center;"><img src="https://plot.ly/~natyquin/72.png?share_key=VlwfkPWF6FhgjM1TfVNOjX" alt="plot from API (3)" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="natyquin:72" sharekey-plotly="VlwfkPWF6FhgjM1TfVNOjX" src="https://plot.ly/embed.js" async></script>
+    <img src='Images/50_subjects.jpeg'>
 </div><p><br> Juvenile Fiction makes number 6 in the list of the top 50, may be an indication that teenagers are still reading...</p>
 
 </div>
@@ -13397,7 +13393,7 @@ Library users are constant for all months during the year</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Classification-and-Predictions">Classification and Predictions<a class="anchor-link" href="#Classification-and-Predictions">&#182;</a></h2><p>Supervised learning is when we want to predict a certain outcome from a given input and the goal is to train a model that can make accurate predictions for new, never-seen before data. To answer the initial question of clasifying digital and physical checkouts I have used a Logistic Regression model.</p>
+<h2 id="Classification-and-Predictions">Classification and Predictions<a class="anchor-link" href="#Classification-and-Predictions">&#182;</a></h2><p>Supervised learning is when we want to predict a certain outcome from a given input and the goal is to train a model that can make accurate predictions for new, never-seen before data. To answer the initial question of classifying digital and physical checkouts I have used a Logistic Regression model.</p>
 <p>The most important features that the classifier takes into account are:</p>
 <ul>
 <li><b>Checkout type:</b> the tool used to check out an item, the SPL has 5 different tools<ul>
@@ -13421,7 +13417,7 @@ Library users are constant for all months during the year</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Counts-of-correct-and-incorrect-classification">Counts of correct and incorrect classification<a class="anchor-link" href="#Counts-of-correct-and-incorrect-classification">&#182;</a></h3><p>To apply the algortihm I took a random sample from the original set with 'entries without replacement' to avoid choosing any entry more than once. The matrix below is a summary of prediction results on our classification problem.</p>
+<h3 id="Counts-of-correct-and-incorrect-classification">Counts of correct and incorrect classification<a class="anchor-link" href="#Counts-of-correct-and-incorrect-classification">&#182;</a></h3><p>To apply the algorithm I took a random sample from the original set with 'entries without replacement' to avoid choosing any entry more than once. The matrix below is a summary of prediction results on our classification problem.</p>
 <p><br><img src="Images/Screen Shot 2019-04-17 at 6.25.49 PM.png" alt="Authors"></p>
 <ul>
 <li>Total number of digital counts (0) is 15,010</li>
